@@ -643,3 +643,7 @@ Run syntax checks:
 ```bash
 find src tests -name '*.py' -print0 | xargs -0 python3 -m py_compile
 ```
+
+## License
+
+Released under the [MIT License](LICENSE). Copyright © 2026 Nathalie Hornick.

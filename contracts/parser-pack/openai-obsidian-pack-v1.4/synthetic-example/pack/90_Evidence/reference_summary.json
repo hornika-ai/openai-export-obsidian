@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "conversations": 1,
+    "messages": 1,
+    "references": 1
+  },
+  "namespaces": {
+    "file": 1
+  },
+  "reference_kinds": {
+    "attachment_file_identifier": 1
+  },
+  "scopes": {
+    "conversation": 1
+  },
+  "value_kinds": {
+    "identifier": 1
+  }
+}

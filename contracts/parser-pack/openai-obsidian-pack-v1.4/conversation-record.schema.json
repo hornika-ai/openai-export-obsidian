@@ -1,0 +1,211 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "chat_url": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_evidence": {
+      "enum": [
+        "mixed",
+        "explicit",
+        "observed",
+        "unknown"
+      ]
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "created_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "default_model": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "file_reference_count": {
+      "type": "integer"
+    },
+    "gpts": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "has_unresolved_files": {
+      "type": "boolean"
+    },
+    "has_warnings": {
+      "type": "boolean"
+    },
+    "is_archived": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "is_do_not_remember": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "is_starred": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "knowledge_stores": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "memory_scope": {},
+    "message_count": {
+      "type": "integer"
+    },
+    "models_seen": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "month": {
+      "type": "string"
+    },
+    "month_key": {
+      "type": "string"
+    },
+    "observed_contexts": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "projects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "resolved_file_count": {
+      "type": "integer"
+    },
+    "reviewed": {
+      "const": false
+    },
+    "schema_version": {
+      "const": "openai-obsidian-pack-v1.4"
+    },
+    "source_archive": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "source_archive_path": {
+      "type": "string"
+    },
+    "source_evidence_count": {
+      "type": "integer"
+    },
+    "source_shard": {
+      "type": "string"
+    },
+    "space_projects": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "status": {
+      "const": "parsed"
+    },
+    "title": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "tool_evidence_count": {
+      "type": "integer"
+    },
+    "type": {
+      "const": "openai_conversation"
+    },
+    "unique_file_count": {
+      "type": "integer"
+    },
+    "unresolved_file_count": {
+      "type": "integer"
+    },
+    "updated_at": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "voice": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "year": {
+      "type": [
+        "integer",
+        "string"
+      ]
+    }
+  },
+  "required": [
+    "type",
+    "schema_version",
+    "status",
+    "title",
+    "reviewed",
+    "created_at",
+    "updated_at",
+    "year",
+    "month",
+    "month_key",
+    "conversation_id",
+    "source_archive",
+    "source_archive_path",
+    "source_shard",
+    "chat_url",
+    "message_count",
+    "default_model",
+    "models_seen",
+    "memory_scope",
+    "voice",
+    "is_archived",
+    "is_starred",
+    "is_do_not_remember",
+    "gpts",
+    "projects",
+    "space_projects",
+    "knowledge_stores",
+    "observed_contexts",
+    "context_evidence",
+    "file_reference_count",
+    "unique_file_count",
+    "resolved_file_count",
+    "unresolved_file_count",
+    "source_evidence_count",
+    "tool_evidence_count",
+    "has_unresolved_files",
+    "has_warnings"
+  ],
+  "type": "object"
+}

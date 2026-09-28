@@ -1,0 +1,33 @@
+{
+  "confidence_counts": {},
+  "contract": {
+    "canonical_edges_created": false,
+    "historical_messages_merged": false,
+    "logical_entities_modified": false,
+    "payloads_copied": false,
+    "physical_resolution_called": false
+  },
+  "counts": {
+    "ambiguity_groups": 0,
+    "candidate_edge_evidence": 0,
+    "contradictions": 0,
+    "insufficient_evidence": 0,
+    "match_attempts": 0,
+    "matched_candidate_edges": 0,
+    "rejections": 0,
+    "unmatched_attempts": 0
+  },
+  "edge_type_counts": {},
+  "integrity": {
+    "candidate_edge_id_collisions": 0
+  },
+  "matching_rule_counts": {},
+  "proof_normalization": {
+    "evidence_sets": 0,
+    "legacy_detailed_evidence_rows": 1747988,
+    "membership_rows": 0
+  },
+  "relation_direction_counts": {},
+  "source_export_scope_counts": {},
+  "status_counts": {}
+}

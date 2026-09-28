@@ -1,0 +1,188 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "asset_ref_id": {
+      "type": "string"
+    },
+    "asset_status": {
+      "enum": [
+        "found",
+        "missing",
+        "collision"
+      ]
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "copied_filename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "copied_pack_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "copied_relative_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "file_role": {
+      "type": "string"
+    },
+    "height": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "image_gen_generation_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "knowledge_store_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "library_file_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "library_gizmo_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "message_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "mime_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "normalized_extension": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "origin_classification": {
+      "type": "string"
+    },
+    "origin_confidence": {
+      "type": "string"
+    },
+    "origination_message_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "origination_thread_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "physical_archive_path": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "proof_path": {
+      "type": "string"
+    },
+    "provenance_status": {
+      "type": "string"
+    },
+    "raw_dat_filename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_file_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_reference": {},
+    "reconstructed_filename": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "size": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    },
+    "source_origin_fields": {
+      "type": "object"
+    },
+    "source_shard": {
+      "type": "string"
+    },
+    "width": {
+      "type": [
+        "integer",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "asset_ref_id",
+    "conversation_id",
+    "message_id",
+    "source_shard",
+    "proof_path",
+    "raw_file_id",
+    "raw_dat_filename",
+    "physical_archive_path",
+    "reconstructed_filename",
+    "normalized_extension",
+    "mime_type",
+    "size",
+    "width",
+    "height",
+    "source_origin_fields",
+    "library_file_id",
+    "origination_message_id",
+    "origination_thread_id",
+    "asset_status",
+    "provenance_status",
+    "origin_classification",
+    "origin_confidence",
+    "copied_relative_path",
+    "copied_filename",
+    "file_role",
+    "copied_pack_path",
+    "knowledge_store_id",
+    "library_gizmo_id",
+    "image_gen_generation_id",
+    "raw_reference"
+  ],
+  "type": "object"
+}

@@ -1,0 +1,22 @@
+.parsing-data-explorer { --pde-border: var(--background-modifier-border); --pde-muted: var(--text-muted); }
+.pde-alert { padding: 1rem; border: 1px solid var(--pde-border); border-radius: 8px; background: var(--background-secondary); }
+.pde-error, .pde-warning, .pde-stale { color: var(--text-error); }
+.pde-muted { color: var(--pde-muted); margin-bottom: 1rem; }
+.pde-controls { display: flex; flex-wrap: wrap; align-items: end; gap: .65rem; padding: .8rem; border: 1px solid var(--pde-border); border-radius: 8px; }
+.pde-control { display: grid; gap: .2rem; min-width: 8rem; font-size: .82rem; color: var(--pde-muted); }
+.pde-control select, .pde-control input { color: var(--text-normal); }
+.pde-search { flex: 1 1 15rem; }
+.pde-kpis { display: grid; grid-template-columns: repeat(auto-fit, minmax(130px, 1fr)); gap: .65rem; margin: 1rem 0; }
+.pde-kpi { display: grid; gap: .15rem; padding: .8rem; border: 1px solid var(--pde-border); border-radius: 8px; }
+.pde-kpi strong { font-size: 1.45rem; }
+.pde-kpi span { color: var(--pde-muted); font-size: .82rem; }
+.pde-chart { height: 140px; display: flex; align-items: end; gap: 4px; overflow-x: auto; border-bottom: 1px solid var(--pde-border); padding-top: 1rem; }
+.pde-bar { min-width: 26px; background: var(--interactive-accent); opacity: .8; position: relative; border-radius: 3px 3px 0 0; }
+.pde-bar span { position: absolute; bottom: -1.4rem; left: 50%; transform: translateX(-50%); font-size: .68rem; color: var(--pde-muted); }
+.pde-summary { display: grid; gap: .4rem; padding: .8rem; background: var(--background-secondary); border-radius: 8px; }
+.pde-table-wrap { overflow-x: auto; }
+.pde-table { width: 100%; border-collapse: collapse; font-size: .86rem; }
+.pde-table th, .pde-table td { padding: .45rem; border-bottom: 1px solid var(--pde-border); text-align: left; vertical-align: top; }
+.pde-table small { display: block; font-size: .7rem; }
+.pde-diagnostics { color: var(--pde-muted); }
+@media (max-width: 700px) { .pde-control { min-width: 45%; } .pde-table { min-width: 820px; } }

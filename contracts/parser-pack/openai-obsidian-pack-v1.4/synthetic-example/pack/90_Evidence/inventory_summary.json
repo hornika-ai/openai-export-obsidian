@@ -1,0 +1,36 @@
+{
+  "basename_collisions": {},
+  "counts": {
+    "basename_collision_groups": 0,
+    "directories": 0,
+    "entries": 2,
+    "errors": 0,
+    "files": 2,
+    "max_depth": 0,
+    "physical_payloads": 1
+  },
+  "detected_extensions": {
+    "json": 1,
+    "txt": 1
+  },
+  "errors": [],
+  "extensions": {
+    "dat": 1,
+    "json": 1
+  },
+  "families": {
+    "conversation_shard": 1,
+    "file_payload": 1
+  },
+  "forensic_hashes": false,
+  "namespaces": {
+    "file": 1,
+    "none": 1
+  },
+  "source_archive": "synthetic-input.zip",
+  "source_sha256": null,
+  "source_status": "inventoried",
+  "statuses": {
+    "inventoried": 2
+  }
+}

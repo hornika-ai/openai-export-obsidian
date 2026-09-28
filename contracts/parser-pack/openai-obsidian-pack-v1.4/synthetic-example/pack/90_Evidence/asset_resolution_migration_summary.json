@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "applied_collision": 0,
+    "applied_unique": 1,
+    "assets": 1,
+    "legacy_fallback": 0
+  },
+  "migration_statuses": {
+    "applied_unique_new": 1
+  }
+}

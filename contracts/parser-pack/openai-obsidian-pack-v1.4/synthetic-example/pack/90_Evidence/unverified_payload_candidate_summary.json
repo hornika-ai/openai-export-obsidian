@@ -1,0 +1,18 @@
+{
+  "contract": {
+    "canonical_relations_created": false,
+    "name_equality_is_not_physical_identity": true,
+    "payload_dispositions_modified": false,
+    "payloads_copied": false,
+    "physical_resolution_modified": false,
+    "raw_zip_reparsed": false
+  },
+  "counts": {
+    "ambiguous_references": 0,
+    "candidate_rows": 0,
+    "eligible_references": 0,
+    "references_with_candidates": 0
+  },
+  "matching_rule_counts": {},
+  "type_comparison_counts": {}
+}

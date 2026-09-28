@@ -1,0 +1,19 @@
+# User exports and generated parser output
+files/
+output*/
+sample_output*/
+run_*/
+audit/
+test/
+
+# Private or local tooling state
+secrets/
+.obsidian/
+.DS_Store
+.tmp.driveupload/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.egg-info/
+build/
+dist/

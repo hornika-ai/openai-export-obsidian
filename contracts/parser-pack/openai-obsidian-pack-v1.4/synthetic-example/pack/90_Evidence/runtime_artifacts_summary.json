@@ -1,0 +1,11 @@
+{
+  "counts": {
+    "chat_html_sources_scanned": 0,
+    "confirmed_by_chat_html": 0,
+    "conversation_scoped_unconfirmed": 0,
+    "runtime_artifacts": 0
+  },
+  "relation_statuses": {},
+  "scan_warnings": [],
+  "scanned_chat_html_archive_paths": []
+}

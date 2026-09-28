@@ -1,0 +1,86 @@
+{
+  "comparison_status_counts": {
+    "primary_only": 2
+  },
+  "contract": {
+    "candidate_edges_created": false,
+    "messages_merged": false,
+    "physical_resolution_called": false
+  },
+  "counts": {
+    "comparisons": 2,
+    "technical_events": 2,
+    "unknown_events": 0
+  },
+  "family_conversation_counts": {
+    "runtime_execution": 2
+  },
+  "field_observations": {
+    "asset_pointer": {
+      "distinct_values": 0,
+      "message_field_states": {
+        "absent": 2
+      },
+      "message_scoped_observations": 0
+    },
+    "gizmo_id": {
+      "distinct_values": 0,
+      "message_field_states": {
+        "absent": 2
+      },
+      "message_scoped_observations": 0
+    },
+    "mask_file_id": {
+      "distinct_values": 0,
+      "message_field_states": {
+        "absent": 2
+      },
+      "message_scoped_observations": 0
+    },
+    "original_file_id": {
+      "distinct_values": 0,
+      "message_field_states": {
+        "absent": 2
+      },
+      "message_scoped_observations": 0
+    },
+    "original_gen_id": {
+      "distinct_values": 0,
+      "message_field_states": {
+        "absent": 2
+      },
+      "message_scoped_observations": 0
+    },
+    "textdoc_reference": {
+      "distinct_values": 0,
+      "message_field_states": {
+        "absent": 2
+      },
+      "message_scoped_observations": 0
+    }
+  },
+  "integrity": {
+    "technical_event_id_collisions": 0
+  },
+  "recipient_counts": {
+    "python": 2
+  },
+  "recipient_observations_by_source": {
+    "primary_2026_json": {
+      "python": 2
+    }
+  },
+  "scan_warnings": [],
+  "source_family_counts": {
+    "primary_2026_json:runtime_execution": 2
+  },
+  "source_operation_counts": {
+    "primary_2026_json:python": 2
+  },
+  "structural_gaps": {
+    "events_without_message_id": 0,
+    "events_without_node_id": 0,
+    "events_without_parent_node_id": 0
+  },
+  "unknown_recipients": {}
+}

@@ -1,0 +1,402 @@
+{
+  "asset_provenance_status_counts": {
+    "explicit": 1
+  },
+  "asset_reference_status_counts": {
+    "collision": 0,
+    "found": 1,
+    "missing": 0
+  },
+  "asset_resolution_migration": {
+    "counts": {
+      "applied_collision": 0,
+      "applied_unique": 1,
+      "assets": 1,
+      "legacy_fallback": 0
+    },
+    "migration_statuses": {
+      "applied_unique_new": 1
+    }
+  },
+  "candidate_edge_construction": {
+    "confidence_counts": {},
+    "contract": {
+      "canonical_edges_created": false,
+      "historical_messages_merged": false,
+      "logical_entities_modified": false,
+      "payloads_copied": false,
+      "physical_resolution_called": false
+    },
+    "counts": {
+      "ambiguity_groups": 0,
+      "candidate_edge_evidence": 0,
+      "contradictions": 0,
+      "insufficient_evidence": 0,
+      "match_attempts": 0,
+      "matched_candidate_edges": 0,
+      "rejections": 0,
+      "unmatched_attempts": 0
+    },
+    "edge_type_counts": {},
+    "integrity": {
+      "candidate_edge_id_collisions": 0
+    },
+    "matching_rule_counts": {},
+    "proof_normalization": {
+      "evidence_sets": 0,
+      "legacy_detailed_evidence_rows": 1747988,
+      "membership_rows": 0
+    },
+    "relation_direction_counts": {},
+    "source_export_scope_counts": {},
+    "status_counts": {}
+  },
+  "collisions": [],
+  "context_profile_construction": {
+    "contract": {
+      "candidate_edges_promoted_automatically": false,
+      "context_file_membership_inferred_from_conversation_only": false,
+      "historical_messages_merged": false,
+      "physical_resolution_called": false,
+      "raw_zip_reparsed": false
+    },
+    "counts": {
+      "context_file_memberships": 0,
+      "context_instruction_records": 0,
+      "context_profile_contradictions": 0,
+      "context_profile_observations": 0,
+      "gizmo_context_profiles": 0,
+      "project_context_profiles": 0
+    },
+    "file_membership_relations": {},
+    "file_membership_statuses": {},
+    "instruction_classifications": {},
+    "integrity": {
+      "context_file_membership_id_collisions": 0,
+      "context_instruction_id_collisions": 0,
+      "context_profile_id_collisions": 0,
+      "context_profile_observation_id_collisions": 0
+    },
+    "manual_instruction_placeholders": {
+      "present_in_existing_obsidian_hubs": true,
+      "treated_as_export_evidence": false
+    },
+    "profile_observation_kinds": {},
+    "profiles_by_source_presence": {},
+    "profiles_with_explicit_names": 0
+  },
+  "context_resource_usage": {
+    "contract": {
+      "candidate_edges_created": false,
+      "canonical_context_memberships_created": false,
+      "historical_messages_merged": false,
+      "name_equality_is_not_physical_identity": true,
+      "owner_confirmation_is_external_input": true,
+      "physical_resolution_called": false,
+      "raw_zip_reparsed": false
+    },
+    "counts": {
+      "context_resource_cooccurrences": 0,
+      "context_resource_edges": 0,
+      "context_resource_nodes": 0,
+      "context_resource_usage_metrics": 0,
+      "owner_confirmation_claims": 0
+    },
+    "edges_by_type": {},
+    "integrity": {
+      "cooccurrence_id_collisions": 0,
+      "edge_id_collisions": 0,
+      "node_id_collisions": 0,
+      "owner_confirmation_id_collisions": 0,
+      "usage_metric_id_collisions": 0
+    },
+    "metrics_by_forensic_status": {},
+    "metrics_by_identity_kind": {},
+    "nodes_by_kind": {}
+  },
+  "counts": {
+    "collision_file_references": 0,
+    "conversation_shards": 1,
+    "conversations": 2,
+    "file_references": 1,
+    "found_file_references": 1,
+    "missing_file_references": 0,
+    "orphan_assets": 0,
+    "physical_assets": 1
+  },
+  "embedded_historical_exports": {
+    "counts": {
+      "comparisons": 0,
+      "duplicate_snapshots": 0,
+      "historical_messages": 0,
+      "historical_only_messages": 0,
+      "signals": 0,
+      "snapshots": 0
+    },
+    "scan_warnings": [],
+    "signal_kinds": {},
+    "snapshots": []
+  },
+  "evidence_files": {
+    "orphan_assets": "90_Evidence/unlinked_assets.jsonl",
+    "unresolved_links": "90_Evidence/asset_links.jsonl"
+  },
+  "inventory": {
+    "basename_collisions": {},
+    "counts": {
+      "basename_collision_groups": 0,
+      "directories": 0,
+      "entries": 2,
+      "errors": 0,
+      "files": 2,
+      "max_depth": 0,
+      "physical_payloads": 1
+    },
+    "detected_extensions": {
+      "json": 1,
+      "txt": 1
+    },
+    "errors": [],
+    "extensions": {
+      "dat": 1,
+      "json": 1
+    },
+    "families": {
+      "conversation_shard": 1,
+      "file_payload": 1
+    },
+    "forensic_hashes": false,
+    "namespaces": {
+      "file": 1,
+      "none": 1
+    },
+    "source_archive": "synthetic-input.zip",
+    "source_sha256": null,
+    "source_status": "inventoried",
+    "statuses": {
+      "inventoried": 2
+    }
+  },
+  "logical_entity_construction": {
+    "contract": {
+      "candidate_edges_created": false,
+      "causal_relations_created": false,
+      "historical_messages_merged": false,
+      "messages_merged": false,
+      "payload_relations_created": false,
+      "physical_resolution_called": false,
+      "source_layer": "technical_event_evidence_only"
+    },
+    "counts": {
+      "legacy_entities_available_for_migration": 0,
+      "logical_entities": 0,
+      "logical_entity_observations": 0,
+      "taxonomy_migration_rows": 0,
+      "unmaterialized_technical_events": 2
+    },
+    "embedded_canmore_uri_observations": 0,
+    "entity_subtype_counts": {},
+    "entity_type_counts": {},
+    "generation_format_counts": {},
+    "gizmo_context_counts": {},
+    "identifier_kind_counts": {},
+    "integrity": {
+      "logical_entity_id_collisions": 0,
+      "logical_entity_observation_id_collisions": 0,
+      "migration_id_collisions": 0
+    },
+    "isolated_legacy_false_textdocs": 0,
+    "legacy_entity_type_counts": {},
+    "migration_status_counts": {},
+    "runtime_path_quality_counts": {},
+    "source_entity_counts": {},
+    "source_presence_status_counts": {},
+    "textdoc_entity_type_counts": {},
+    "textdoc_non_identifier_metadata": {
+      "distinct_values": 0,
+      "occurrences": 0,
+      "technical_events": 0
+    },
+    "unmaterialized_event_family_counts": {
+      "runtime_execution": 2
+    }
+  },
+  "orphan_asset_count": 0,
+  "payload_classification": {
+    "counts": {
+      "duplicate_payloads": 0,
+      "equivalence_groups": 1,
+      "hashed_payloads": 1,
+      "physical_payloads": 1,
+      "unhashable_payloads": 0
+    },
+    "disposition_statuses": {
+      "referenced_payload": 1
+    },
+    "physical_origins": {
+      "conversation_payload": 1
+    }
+  },
+  "payload_materialization": {
+    "canonical_payloads_materialized": 0,
+    "physical_copies_not_materialized": 1,
+    "physical_payloads_observed": 1,
+    "true_unlinked_payloads_materialized_in_unlinked": 0
+  },
+  "physical_resolution": {
+    "counts": {
+      "collisions": 0,
+      "external_non_exportable": 0,
+      "no_candidate_in_inventory": 0,
+      "resolutions": 1,
+      "resolved_equivalent_candidates": 0,
+      "resolved_unique": 1
+    },
+    "match_methods": {
+      "file_identifier_dat_basename": 1
+    },
+    "resolution_statuses": {
+      "resolved_unique": 1
+    }
+  },
+  "reference_extraction": {
+    "counts": {
+      "conversations": 1,
+      "messages": 1,
+      "references": 1
+    },
+    "namespaces": {
+      "file": 1
+    },
+    "reference_kinds": {
+      "attachment_file_identifier": 1
+    },
+    "scopes": {
+      "conversation": 1
+    },
+    "value_kinds": {
+      "identifier": 1
+    }
+  },
+  "runtime_artifacts": {
+    "counts": {
+      "chat_html_sources_scanned": 0,
+      "confirmed_by_chat_html": 0,
+      "conversation_scoped_unconfirmed": 0,
+      "runtime_artifacts": 0
+    },
+    "relation_statuses": {},
+    "scan_warnings": [],
+    "scanned_chat_html_archive_paths": []
+  },
+  "technical_event_extraction": {
+    "comparison_status_counts": {
+      "primary_only": 2
+    },
+    "contract": {
+      "candidate_edges_created": false,
+      "messages_merged": false,
+      "physical_resolution_called": false
+    },
+    "counts": {
+      "comparisons": 2,
+      "technical_events": 2,
+      "unknown_events": 0
+    },
+    "family_conversation_counts": {
+      "runtime_execution": 2
+    },
+    "field_observations": {
+      "asset_pointer": {
+        "distinct_values": 0,
+        "message_field_states": {
+          "absent": 2
+        },
+        "message_scoped_observations": 0
+      },
+      "gizmo_id": {
+        "distinct_values": 0,
+        "message_field_states": {
+          "absent": 2
+        },
+        "message_scoped_observations": 0
+      },
+      "mask_file_id": {
+        "distinct_values": 0,
+        "message_field_states": {
+          "absent": 2
+        },
+        "message_scoped_observations": 0
+      },
+      "original_file_id": {
+        "distinct_values": 0,
+        "message_field_states": {
+          "absent": 2
+        },
+        "message_scoped_observations": 0
+      },
+      "original_gen_id": {
+        "distinct_values": 0,
+        "message_field_states": {
+          "absent": 2
+        },
+        "message_scoped_observations": 0
+      },
+      "textdoc_reference": {
+        "distinct_values": 0,
+        "message_field_states": {
+          "absent": 2
+        },
+        "message_scoped_observations": 0
+      }
+    },
+    "integrity": {
+      "technical_event_id_collisions": 0
+    },
+    "recipient_counts": {
+      "python": 2
+    },
+    "recipient_observations_by_source": {
+      "primary_2026_json": {
+        "python": 2
+      }
+    },
+    "scan_warnings": [],
+    "source_family_counts": {
+      "primary_2026_json:runtime_execution": 2
+    },
+    "source_operation_counts": {
+      "primary_2026_json:python": 2
+    },
+    "structural_gaps": {
+      "events_without_message_id": 0,
+      "events_without_node_id": 0,
+      "events_without_parent_node_id": 0
+    },
+    "unknown_recipients": {}
+  },
+  "unknowns": {
+    "unknown_origin_references": 0,
+    "unknown_provenance_references": 0
+  },
+  "unresolved_link_count": 0,
+  "unverified_payload_candidates": {
+    "contract": {
+      "canonical_relations_created": false,
+      "name_equality_is_not_physical_identity": true,
+      "payload_dispositions_modified": false,
+      "payloads_copied": false,
+      "physical_resolution_modified": false,
+      "raw_zip_reparsed": false
+    },
+    "counts": {
+      "ambiguous_references": 0,
+      "candidate_rows": 0,
+      "eligible_references": 0,
+      "references_with_candidates": 0
+    },
+    "matching_rule_counts": {},
+    "type_comparison_counts": {}
+  },
+  "warnings": []
+}

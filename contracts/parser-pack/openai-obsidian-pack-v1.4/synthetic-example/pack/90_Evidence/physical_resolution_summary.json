@@ -1,0 +1,16 @@
+{
+  "counts": {
+    "collisions": 0,
+    "external_non_exportable": 0,
+    "no_candidate_in_inventory": 0,
+    "resolutions": 1,
+    "resolved_equivalent_candidates": 0,
+    "resolved_unique": 1
+  },
+  "match_methods": {
+    "file_identifier_dat_basename": 1
+  },
+  "resolution_statuses": {
+    "resolved_unique": 1
+  }
+}

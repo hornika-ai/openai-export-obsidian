@@ -1,0 +1,44 @@
+{
+  "contract": {
+    "candidate_edges_created": false,
+    "causal_relations_created": false,
+    "historical_messages_merged": false,
+    "messages_merged": false,
+    "payload_relations_created": false,
+    "physical_resolution_called": false,
+    "source_layer": "technical_event_evidence_only"
+  },
+  "counts": {
+    "legacy_entities_available_for_migration": 0,
+    "logical_entities": 0,
+    "logical_entity_observations": 0,
+    "taxonomy_migration_rows": 0,
+    "unmaterialized_technical_events": 2
+  },
+  "embedded_canmore_uri_observations": 0,
+  "entity_subtype_counts": {},
+  "entity_type_counts": {},
+  "generation_format_counts": {},
+  "gizmo_context_counts": {},
+  "identifier_kind_counts": {},
+  "integrity": {
+    "logical_entity_id_collisions": 0,
+    "logical_entity_observation_id_collisions": 0,
+    "migration_id_collisions": 0
+  },
+  "isolated_legacy_false_textdocs": 0,
+  "legacy_entity_type_counts": {},
+  "migration_status_counts": {},
+  "runtime_path_quality_counts": {},
+  "source_entity_counts": {},
+  "source_presence_status_counts": {},
+  "textdoc_entity_type_counts": {},
+  "textdoc_non_identifier_metadata": {
+    "distinct_values": 0,
+    "occurrences": 0,
+    "technical_events": 0
+  },
+  "unmaterialized_event_family_counts": {
+    "runtime_execution": 2
+  }
+}

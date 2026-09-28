@@ -1,0 +1,145 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "author_role": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "channel": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "child_ids": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "citations": {
+      "items": {},
+      "type": "array"
+    },
+    "code_blocks": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "content_references": {
+      "items": {},
+      "type": "array"
+    },
+    "content_type": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "context_citations": {
+      "items": {
+        "type": "object"
+      },
+      "type": "array"
+    },
+    "conversation_id": {
+      "type": "string"
+    },
+    "create_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "default_model_slug": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "end_turn": {
+      "type": [
+        "boolean",
+        "null"
+      ]
+    },
+    "message_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "model_slug": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "node_id": {
+      "type": "string"
+    },
+    "non_text_parts": {
+      "items": {},
+      "type": "array"
+    },
+    "parent_id": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "raw_metadata": {
+      "type": "object"
+    },
+    "safe_urls": {
+      "items": {
+        "type": "string"
+      },
+      "type": "array"
+    },
+    "status": {
+      "type": [
+        "string",
+        "null"
+      ]
+    },
+    "text": {
+      "type": "string"
+    },
+    "update_time": {
+      "type": [
+        "string",
+        "null"
+      ]
+    }
+  },
+  "required": [
+    "node_id",
+    "message_id",
+    "parent_id",
+    "child_ids",
+    "author_role",
+    "create_time",
+    "update_time",
+    "model_slug",
+    "default_model_slug",
+    "channel",
+    "end_turn",
+    "status",
+    "content_type",
+    "text",
+    "non_text_parts",
+    "content_references",
+    "context_citations",
+    "citations",
+    "safe_urls",
+    "code_blocks",
+    "raw_metadata",
+    "conversation_id"
+  ],
+  "type": "object"
+}

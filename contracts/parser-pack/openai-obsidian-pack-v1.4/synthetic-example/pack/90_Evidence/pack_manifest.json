@@ -1,0 +1,29 @@
+{
+  "copy_assets": false,
+  "copy_unlinked_assets": false,
+  "counts": {
+    "emitted_conversations": 2,
+    "parsed_conversations": 2
+  },
+  "emit_bases": false,
+  "emit_dataview": false,
+  "emit_json": true,
+  "emit_markdown": true,
+  "filters": {
+    "conversation_ids": [],
+    "max_conversations": null,
+    "months": []
+  },
+  "generated_at": "2000-01-01T00:00:00Z",
+  "markdown_profile": "readable_compact",
+  "navigation": {
+    "conversation_note_locator": {
+      "record_count": 2,
+      "relative_path": "40_Views/conversation_note_locators.jsonl",
+      "state": "emitted"
+    }
+  },
+  "schema_version": "openai-obsidian-pack-v1.4",
+  "source_input": "synthetic-input.zip",
+  "update_existing_pack": false
+}

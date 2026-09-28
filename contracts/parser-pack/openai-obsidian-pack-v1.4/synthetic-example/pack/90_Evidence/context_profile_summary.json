@@ -1,0 +1,33 @@
+{
+  "contract": {
+    "candidate_edges_promoted_automatically": false,
+    "context_file_membership_inferred_from_conversation_only": false,
+    "historical_messages_merged": false,
+    "physical_resolution_called": false,
+    "raw_zip_reparsed": false
+  },
+  "counts": {
+    "context_file_memberships": 0,
+    "context_instruction_records": 0,
+    "context_profile_contradictions": 0,
+    "context_profile_observations": 0,
+    "gizmo_context_profiles": 0,
+    "project_context_profiles": 0
+  },
+  "file_membership_relations": {},
+  "file_membership_statuses": {},
+  "instruction_classifications": {},
+  "integrity": {
+    "context_file_membership_id_collisions": 0,
+    "context_instruction_id_collisions": 0,
+    "context_profile_id_collisions": 0,
+    "context_profile_observation_id_collisions": 0
+  },
+  "manual_instruction_placeholders": {
+    "present_in_existing_obsidian_hubs": true,
+    "treated_as_export_evidence": false
+  },
+  "profile_observation_kinds": {},
+  "profiles_by_source_presence": {},
+  "profiles_with_explicit_names": 0
+}

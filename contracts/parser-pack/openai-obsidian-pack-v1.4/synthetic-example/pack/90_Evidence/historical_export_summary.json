@@ -1,0 +1,13 @@
+{
+  "counts": {
+    "comparisons": 0,
+    "duplicate_snapshots": 0,
+    "historical_messages": 0,
+    "historical_only_messages": 0,
+    "signals": 0,
+    "snapshots": 0
+  },
+  "scan_warnings": [],
+  "signal_kinds": {},
+  "snapshots": []
+}

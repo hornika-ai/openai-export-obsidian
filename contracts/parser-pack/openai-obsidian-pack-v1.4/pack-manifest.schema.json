@@ -1,0 +1,143 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "additionalProperties": false,
+  "properties": {
+    "copy_assets": {
+      "type": "boolean"
+    },
+    "copy_unlinked_assets": {
+      "type": "boolean"
+    },
+    "counts": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false,
+      "properties": {
+        "emitted_conversations": {
+          "type": "integer"
+        },
+        "parsed_conversations": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "parsed_conversations",
+        "emitted_conversations"
+      ],
+      "type": "object"
+    },
+    "emit_bases": {
+      "type": "boolean"
+    },
+    "emit_dataview": {
+      "type": "boolean"
+    },
+    "emit_json": {
+      "const": true
+    },
+    "emit_markdown": {
+      "type": "boolean"
+    },
+    "filters": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false,
+      "properties": {
+        "conversation_ids": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        },
+        "max_conversations": {
+          "type": [
+            "integer",
+            "null"
+          ]
+        },
+        "months": {
+          "items": {
+            "type": "string"
+          },
+          "type": "array"
+        }
+      },
+      "required": [
+        "conversation_ids",
+        "months",
+        "max_conversations"
+      ],
+      "type": "object"
+    },
+    "generated_at": {
+      "type": "string"
+    },
+    "markdown_profile": {
+      "enum": [
+        "readable",
+        "readable_compact"
+      ]
+    },
+    "navigation": {
+      "$schema": "https://json-schema.org/draft/2020-12/schema",
+      "additionalProperties": false,
+      "properties": {
+        "conversation_note_locator": {
+          "$schema": "https://json-schema.org/draft/2020-12/schema",
+          "additionalProperties": false,
+          "properties": {
+            "record_count": {
+              "type": "integer"
+            },
+            "relative_path": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "state": {
+              "enum": [
+                "emitted",
+                "not_emitted"
+              ]
+            }
+          },
+          "required": [
+            "state",
+            "relative_path",
+            "record_count"
+          ],
+          "type": "object"
+        }
+      },
+      "required": [
+        "conversation_note_locator"
+      ],
+      "type": "object"
+    },
+    "schema_version": {
+      "const": "openai-obsidian-pack-v1.4"
+    },
+    "source_input": {
+      "type": "string"
+    },
+    "update_existing_pack": {
+      "type": "boolean"
+    }
+  },
+  "required": [
+    "schema_version",
+    "generated_at",
+    "source_input",
+    "markdown_profile",
+    "copy_assets",
+    "copy_unlinked_assets",
+    "emit_json",
+    "emit_markdown",
+    "emit_bases",
+    "emit_dataview",
+    "update_existing_pack",
+    "navigation",
+    "filters",
+    "counts"
+  ],
+  "type": "object"
+}

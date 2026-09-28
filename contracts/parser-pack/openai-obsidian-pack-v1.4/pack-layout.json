@@ -1,0 +1,149 @@
+{
+  "allowed_root_directories": [
+    "10_Conversations",
+    "20_Files",
+    "30_Contexts",
+    "40_Views",
+    "90_Evidence",
+    "_logs",
+    "logs"
+  ],
+  "historical_variant": {
+    "contract_status": "outside this readable-pack contract",
+    "profile": "forensic"
+  },
+  "navigation_artifacts": {
+    "conversation_note_locator": {
+      "evidence_fingerprint": "excluded",
+      "relative_path": "40_Views/conversation_note_locators.jsonl",
+      "state_when_markdown_disabled": "not_emitted",
+      "state_when_markdown_enabled": "emitted"
+    }
+  },
+  "optional_files": [
+    "00_Home.md",
+    "10_Conversations/**",
+    "20_Files/**",
+    "30_Contexts/**",
+    "40_Views/conversation_note_locators.jsonl",
+    "40_Views/**",
+    "_logs/parse.log",
+    "logs/parse.log"
+  ],
+  "optional_root_navigation_files": [
+    "00_Home.md"
+  ],
+  "pack_schema": "openai-obsidian-pack-v1.4",
+  "recommended_profile": "readable_compact",
+  "required_files": [
+    "90_Evidence/pack_manifest.json",
+    "90_Evidence/parse_audit.json",
+    "90_Evidence/conversations.jsonl",
+    "90_Evidence/messages.jsonl",
+    "90_Evidence/message_sources.jsonl",
+    "90_Evidence/tool_events.jsonl",
+    "90_Evidence/textdocs.jsonl",
+    "90_Evidence/citation_links.jsonl",
+    "90_Evidence/asset_links.jsonl",
+    "90_Evidence/context_links.jsonl",
+    "90_Evidence/file_manifest.jsonl",
+    "90_Evidence/unlinked_assets.jsonl",
+    "90_Evidence/inventory.jsonl",
+    "90_Evidence/inventory_errors.jsonl",
+    "90_Evidence/inventory_summary.json",
+    "90_Evidence/references.jsonl",
+    "90_Evidence/reference_summary.json",
+    "90_Evidence/physical_resolutions.jsonl",
+    "90_Evidence/physical_resolution_summary.json",
+    "90_Evidence/payload_dispositions.jsonl",
+    "90_Evidence/payload_disposition_summary.json",
+    "90_Evidence/asset_resolution_comparisons.jsonl",
+    "90_Evidence/asset_resolution_migration_summary.json",
+    "90_Evidence/unverified_payload_candidates.jsonl",
+    "90_Evidence/unverified_payload_candidate_summary.json",
+    "90_Evidence/runtime_artifacts.jsonl",
+    "90_Evidence/runtime_artifacts_summary.json",
+    "90_Evidence/historical_export_snapshots.jsonl",
+    "90_Evidence/historical_conversation_comparisons.jsonl",
+    "90_Evidence/historical_messages.jsonl",
+    "90_Evidence/historical_signals.jsonl",
+    "90_Evidence/historical_export_summary.json",
+    "90_Evidence/technical_events.jsonl",
+    "90_Evidence/technical_event_comparisons.jsonl",
+    "90_Evidence/technical_event_unknowns.jsonl",
+    "90_Evidence/technical_event_summary.json",
+    "90_Evidence/logical_entities.jsonl",
+    "90_Evidence/logical_entity_observations.jsonl",
+    "90_Evidence/logical_entity_unmaterialized_events.jsonl",
+    "90_Evidence/logical_entity_taxonomy_migration.jsonl",
+    "90_Evidence/logical_entity_summary.json",
+    "90_Evidence/payload_materialization_summary.json",
+    "90_Evidence/candidate_edges.jsonl",
+    "90_Evidence/candidate_edge_unmatched.jsonl",
+    "90_Evidence/candidate_edge_evidence.jsonl",
+    "90_Evidence/candidate_edge_ambiguity_groups.jsonl",
+    "90_Evidence/candidate_edge_evidence_sets.jsonl",
+    "90_Evidence/candidate_edge_rejections.jsonl",
+    "90_Evidence/candidate_edge_summary.json",
+    "90_Evidence/gizmo_context_profiles.jsonl",
+    "90_Evidence/project_context_profiles.jsonl",
+    "90_Evidence/context_profile_observations.jsonl",
+    "90_Evidence/context_instruction_candidates.jsonl",
+    "90_Evidence/context_file_memberships.jsonl",
+    "90_Evidence/context_profile_contradictions.jsonl",
+    "90_Evidence/context_profile_summary.json",
+    "90_Evidence/context_resource_nodes.jsonl",
+    "90_Evidence/context_resource_edges.jsonl",
+    "90_Evidence/context_resource_owner_claims.jsonl",
+    "90_Evidence/context_resource_usage_metrics.jsonl",
+    "90_Evidence/context_resource_cooccurrences.jsonl",
+    "90_Evidence/context_resource_usage_summary.json"
+  ],
+  "source_definitions": [
+    {
+      "path": "pyproject.toml",
+      "role": "parser_version",
+      "symbol": "project.version"
+    },
+    {
+      "path": "src/openai_export_obsidian/runner.py",
+      "role": "pack_schema",
+      "symbol": "SCHEMA_VERSION"
+    },
+    {
+      "path": "src/openai_export_obsidian/runner.py",
+      "role": "pack manifest serializer",
+      "symbol": "build_pack_manifest"
+    },
+    {
+      "path": "src/openai_export_obsidian/runner.py",
+      "role": "readable pack writer",
+      "symbol": "emit_readable_outputs"
+    },
+    {
+      "path": "src/openai_export_obsidian/conversation_note_locator.py",
+      "role": "conversation note locator writer",
+      "symbol": "write_conversation_note_locators"
+    },
+    {
+      "path": "src/openai_export_obsidian/runner.py",
+      "role": "conversation serializer",
+      "symbol": "readable_conversation_row"
+    },
+    {
+      "path": "src/openai_export_obsidian/models.py",
+      "role": "message serializer",
+      "symbol": "MessageRecord.to_dict"
+    },
+    {
+      "path": "src/openai_export_obsidian/models.py",
+      "role": "asset serializer",
+      "symbol": "AssetRecord.to_dict"
+    },
+    {
+      "path": "src/openai_export_obsidian/validation.py",
+      "role": "inter-file validator",
+      "symbol": "validate_pack"
+    }
+  ]
+}

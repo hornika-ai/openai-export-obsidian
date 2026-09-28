@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "openai-export-obsidian"
+version = "0.1.0"
+description = "Forensic-first parser for OpenAI/ChatGPT export zips into Obsidian-ready packs."
+readme = "README.md"
+requires-python = ">=3.11"
+authors = [
+  { name = "Natchou" },
+]
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/hornika-ai/openai-export-obsidian"
+Repository = "https://github.com/hornika-ai/openai-export-obsidian"
+Issues = "https://github.com/hornika-ai/openai-export-obsidian/issues"
+
+[project.scripts]
+openai-export-obsidian = "openai_export_obsidian.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.setuptools.package-data]
+openai_export_obsidian = ["templates/analytics/*.md", "templates/analytics/*.js", "templates/analytics/*.css"]

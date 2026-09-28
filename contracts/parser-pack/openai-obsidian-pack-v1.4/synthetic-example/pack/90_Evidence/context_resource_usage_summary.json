@@ -1,0 +1,29 @@
+{
+  "contract": {
+    "candidate_edges_created": false,
+    "canonical_context_memberships_created": false,
+    "historical_messages_merged": false,
+    "name_equality_is_not_physical_identity": true,
+    "owner_confirmation_is_external_input": true,
+    "physical_resolution_called": false,
+    "raw_zip_reparsed": false
+  },
+  "counts": {
+    "context_resource_cooccurrences": 0,
+    "context_resource_edges": 0,
+    "context_resource_nodes": 0,
+    "context_resource_usage_metrics": 0,
+    "owner_confirmation_claims": 0
+  },
+  "edges_by_type": {},
+  "integrity": {
+    "cooccurrence_id_collisions": 0,
+    "edge_id_collisions": 0,
+    "node_id_collisions": 0,
+    "owner_confirmation_id_collisions": 0,
+    "usage_metric_id_collisions": 0
+  },
+  "metrics_by_forensic_status": {},
+  "metrics_by_identity_kind": {},
+  "nodes_by_kind": {}
+}

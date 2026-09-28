@@ -3,6 +3,26 @@
 OpenAI Export for Obsidian turns an official ChatGPT/OpenAI export ZIP into a
 navigable Obsidian archive and a machine-readable evidence pack.
 
+## In 30 seconds
+
+This local Python pipeline turns a raw account export into readable Obsidian
+conversations, resolved local assets, structured evidence JSONL, and navigable
+context views.
+
+```text
+OpenAI export ZIP
+        ↓
+recursive inventory
+        ↓
+conversation and asset parsing
+        ↓
+reference extraction and physical resolution
+        ↓
+deterministic evidence JSONL
+        ↓
+Markdown reconstruction and Obsidian navigation
+```
+
 The parser runs locally. It does not upload the export or call an external API.
 It treats the ZIP as the source of truth, preserves explicit evidence paths,
 and keeps missing or unresolved assets visible instead of hiding them.
